@@ -34,4 +34,4 @@ j = 0
 for i in l:
     j += i
 
-print(j)
+print("answer: ",j)
