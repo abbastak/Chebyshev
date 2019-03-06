@@ -17,9 +17,7 @@ try:
     z = y
     while True:
         t = x / z
-        #print(t)
         tavan += 1
-        #print(tavan)
         z = y**tavan
         t = int(t)
         l.append(t)
@@ -34,4 +32,4 @@ j = 0
 for i in l:
     j += i
 
-print("answer: ",j)
+print("answer: ", j)
